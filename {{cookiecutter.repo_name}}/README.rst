@@ -102,7 +102,8 @@ Overview
 Licence
 =======
 {{ cookiecutter.project_short_description|wordwrap(119) }}
-Copyright (C) {{ '<YEAR>' if cookiecutter.year == 'now' else cookiecutter.year }}, {{ cookiecutter.full_name }}
+
+Copyright (C) {{ cookiecutter.year }}, {{ cookiecutter.full_name }}
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
