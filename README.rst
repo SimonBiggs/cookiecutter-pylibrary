@@ -14,9 +14,9 @@ Cookiecutter_ template for a Python python library. |travis| |appveyor|
 
 *Notes*:
 
-* This is forked from ionelmc/cookiecutter-pylibrary. To use this custom branch call:
+* This is forked from ionelmc/cookiecutter-pylibrary. To use this custom branch call::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git --checkout develop
+  cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git --checkout develop
 
 * This is largely designed to address this `blog post about packaging python
   libraries <https://blog.ionelmc.ro/2014/05/25/python-packaging/>`_.
