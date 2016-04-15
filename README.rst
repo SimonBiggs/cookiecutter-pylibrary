@@ -14,6 +14,12 @@ Cookiecutter_ template for a Python python library. |travis| |appveyor|
 
 *Notes*:
 
+This is forked from ionelmc/cookiecutter-pylibrary. To use this custom branch call::
+
+  cookiecutter https://github.com/simonbiggs/cookiecutter-pylibrary.git --checkout custom
+
+
+
 * This is largely designed to address this `blog post about packaging python
   libraries <https://blog.ionelmc.ro/2014/05/25/python-packaging/>`_.
 
@@ -29,7 +35,7 @@ Features
 
 This is an "all inclusive" sort of template.
 
-* BSD 2-clause license.
+* AGPLv3+.
 * Tox_ for managing test environments for Python 2.7, 3.3, PyPy etc.
 * Pytest_ or Nose_ for testing Python 2.7, 3.3, PyPy etc.
 * *Optional* support for creating a tests matrix out of dependencies and python versions.
